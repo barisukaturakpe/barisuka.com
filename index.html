@@ -107,23 +107,8 @@
     padding:0 28px 96px;
   }
 
-  /* ── top bar ── */
-  .topbar{
-    display:flex;
-    justify-content:space-between;
-    align-items:baseline;
-    font-family:var(--mono);
-    font-size:12px;
-    letter-spacing:.08em;
-    text-transform:uppercase;
-    color:var(--ink-faint);
-    padding:26px 0 0;
-  }
-  .topbar .name{ color:var(--ink); }
-
   /* ── hero ── */
   .hero{ padding:16vh 0 0; }
-  @media (max-width:640px){ .hero{ padding:11vh 0 0; } }
 
   h1{
     font-family:var(--serif);
@@ -252,6 +237,21 @@
     gap:8px;
   }
 
+  /* ── mobile typography ── */
+  @media (max-width:640px){
+    body{ font-size:20px; }
+    .hero{ padding:11vh 0 0; }
+    h1{ font-size:clamp(3.2rem, 11vw, 5.4rem); }
+    .role{ font-size:clamp(1.1rem, 4vw, 1.2rem); }
+    .lede{ font-size:clamp(1.45rem, 4.5vw, 1.6rem); max-width:none; }
+    .eyebrow{ font-size:13px; }
+    .work .label{ font-size:16px; }
+    .work .desc{ font-size:19px; }
+    .links a{ font-size:16px; }
+    .links svg{ width:19px; height:19px; }
+    footer{ font-size:14px; }
+  }
+
   /* ── entrance motion (only if the user allows it) ── */
   @media (prefers-reduced-motion:no-preference){
     .reveal{ opacity:0; transform:translateY(14px); animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
@@ -263,11 +263,6 @@
 </head>
 <body>
   <div class="wrap">
-
-    <div class="topbar">
-      <span class="name">Barisuka Turakpe</span>
-      <span>Nigeria</span>
-    </div>
 
     <header class="hero">
       <h1 class="reveal d1">Barisuka<br>Turakpe</h1>
@@ -285,8 +280,10 @@
       <p class="eyebrow">About</p>
       <p><strong>Barisuka Turakpe</strong> is a Nigerian software engineer and founder building financial infrastructure for Africa's digital economy.</p>
       <p>He is the founder of <strong><a href="https://remotah.com" target="_blank">Remotah</a></strong>, which connects skilled African professionals with employers in the US, UK, and Canada — and handles the cross-border payments that get them paid. He also founded <strong><a href="https://atisah.com" target="_blank">Atisah</a></strong>, which lets African creators sell digital products worldwide, with storefront and cross-border payouts built in.</p>
-      <p>He builds these end to end. A software engineer by training (BCA, Lovely Professional University, India), he holds the <strong><a href="https://www.linkedin.com/learning/certificates/5058c974d6314d28055453c23eafe27bf2a685b9ef222665b27cd76871043dd5" target="_blank" rel="noopener noreferrer">Aha! Product Management Professional Certificate</a></strong> and the <strong><a href="https://www.linkedin.com/learning/certificates/902b3a2df1cbb5444bd97a3ed629062591811c1ada12b7a8603feb8e4d2f7f07" target="_blank" rel="noopener noreferrer">Atlassian Agile Project Management Professional Certificate</a></strong>. He leads engineering and product across his companies and has shipped payment, wallet, and multi-currency systems both as standalone products and inside larger ones. He's also a distribution operator: Remotah reached <strong>20,000+ organic signups</strong> with zero paid advertising, and he has trained <strong>3,000+ people to code</strong> and another <strong>4,000–5,000 in sales and marketing</strong>.</p>
-      <p>Alongside his companies, he runs a software and design agency and founded <strong>018</strong>, a residency for early-stage builders in Nigeria. His work sits at the intersection of fintech, product, and distribution — with a long-standing interest in philosophy and theology, and how they shape the way software and AI get built.</p>
+      <p>A software engineer by training (BCA, Lovely Professional University, India), he holds the <strong><a href="https://www.linkedin.com/learning/certificates/5058c974d6314d28055453c23eafe27bf2a685b9ef222665b27cd76871043dd5" target="_blank" rel="noopener noreferrer">Aha! Product Management Professional Certificate</a></strong> and the <strong><a href="https://www.linkedin.com/learning/certificates/902b3a2df1cbb5444bd97a3ed629062591811c1ada12b7a8603feb8e4d2f7f07" target="_blank" rel="noopener noreferrer">Atlassian Agile Project Management Professional Certificate</a></strong>. He leads engineering and product across his companies and has shipped payment, wallet, and multi-currency systems both as standalone products and inside larger ones.</p>
+      <p>He's also a distribution operator: Remotah reached <strong>20,000+ organic signups</strong> with zero paid advertising, and he has trained <strong>3,000+ people to code</strong> and another <strong>4,000–5,000 in sales and marketing</strong>.</p>
+      <p>Alongside his companies, he runs a software, marketing and design agency where he has built products for clients that cut across healthcare, fintech, education and logistics. He also founded <strong>018</strong>, a residency for early-stage builders in Nigeria.</p>
+      <p>His work sits at the intersection of fintech, product, and distribution — with a long-standing interest in philosophy and theology, and how they shape the way software and AI get built.</p>
     </section>
 
     <hr class="rule" />
@@ -333,7 +330,6 @@
 
     <footer>
       <span>© <span id="year"></span> Barisuka Turakpe</span>
-      <span>Built in Nigeria</span>
     </footer>
 
   </div>
