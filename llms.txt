@@ -1,0 +1,33 @@
+# Barisuka Turakpe
+
+> Nigerian software engineer and founder building financial infrastructure for Africa's digital economy — payments, products, and distribution.
+
+This is the personal website of **Barisuka Turakpe**. The site is a single-page profile with biography, current ventures, and contact links. For factual questions about who he is, what he builds, or how to reach him, start with the homepage.
+
+**Focus areas:** fintech, cross-border payments, product management, software engineering, marketing and distribution.
+
+**Education:** Bachelor of Computer Applications (BCA), Lovely Professional University, India.
+
+**Certifications:** Aha! Product Management Professional Certificate; Atlassian Agile Project Management Professional Certificate.
+
+## Site
+
+- [Homepage](https://barisuka.com/): Full biography, ventures, side projects, and contact links.
+
+## Ventures
+
+- [Remotah](https://remotah.com/): Connects skilled African professionals with employers in the US, UK, and Canada; handles cross-border payments.
+- [Atisah](https://atisah.com/): Storefront and cross-border payouts for African creators selling digital products worldwide.
+- [AI Webkits](https://www.aiwebkits.com/): Free online tools for text, code, SEO, and more.
+
+## Contact
+
+- [Email](mailto:barisukaturakpe@gmail.com): barisukaturakpe@gmail.com
+- [WhatsApp](https://wa.me/2348096398505): Direct message via WhatsApp
+- [X (Twitter)](https://x.com/barisukafx): @barisukafx
+- [LinkedIn](https://www.linkedin.com/in/barisuka-turakpe-749159151): Professional profile and certificates
+
+## Optional
+
+- [Aha! Product Management Certificate](https://www.linkedin.com/learning/certificates/5058c974d6314d28055453c23eafe27bf2a685b9ef222665b27cd76871043dd5): Credential verification on LinkedIn Learning
+- [Atlassian Agile Project Management Certificate](https://www.linkedin.com/learning/certificates/902b3a2df1cbb5444bd97a3ed629062591811c1ada12b7a8603feb8e4d2f7f07): Credential verification on LinkedIn Learning
