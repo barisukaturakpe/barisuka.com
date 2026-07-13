@@ -2,22 +2,30 @@
 
 > Nigerian software engineer and founder building financial infrastructure for Africa's digital economy — payments, products, and distribution.
 
-This is the personal website of **Barisuka Turakpe**. The site is a single-page profile with biography, current ventures, and contact links. For factual questions about who he is, what he builds, or how to reach him, start with the homepage.
+This is the personal website of **Barisuka Turakpe**. The site is a single-page profile with biography, current ventures, side projects, and contact links. For factual questions about who he is, what he builds, or how to reach him, start with the homepage.
 
-**Focus areas:** fintech, cross-border payments, product management, software engineering, marketing and distribution.
+**Focus areas:** fintech, cross-border payments, product management, software engineering, marketing and distribution, live chat and customer support tooling.
 
 **Education:** Bachelor of Computer Applications (BCA), Lovely Professional University, India.
 
 **Certifications:** Aha! Product Management Professional Certificate; Atlassian Agile Project Management Professional Certificate.
 
+**Background:** Software engineer by training. Leads engineering and product across his companies. Has shipped payment, wallet, and multi-currency systems both as standalone products and inside larger ones. Distribution operator — Remotah reached 20,000+ organic signups with zero paid advertising. Has trained 3,000+ people to code and another 4,000–5,000 in sales and marketing. Runs a software, marketing, and design agency building products for clients across healthcare, fintech, education, and logistics. Work sits at the intersection of fintech, product, and distribution.
+
 ## Site
 
 - [Homepage](https://barisuka.com/): Full biography, ventures, side projects, and contact links.
 
-## Ventures
+## Building (current ventures)
 
-- [Remotah](https://remotah.com/): Connects skilled African professionals with employers in the US, UK, and Canada; handles cross-border payments.
+- [Remotah](https://remotah.com/): Connects skilled African professionals with employers in the US, UK, and Canada. Handles cross-border payments so workers get paid. Reached 20,000+ organic signups with zero paid advertising.
 - [Atisah](https://atisah.com/): Storefront and cross-border payouts for African creators selling digital products worldwide.
+- [Roko](https://rokochat.com/): Live chat SaaS (also known as rokochat). Keeps every conversation forever — no deletion at 6 months or ever. Unlimited messages on every plan, including free. Lightweight widget (≤15 KB gzipped, loads in under 200 ms). Real-time delivery via WebSocket. One-line embed works on WordPress, Shopify, Next.js, Webflow, and custom sites. Features: HMAC-verified identity, push and email agent alerts, canned responses, file sharing (up to 25 MB on paid plans). Free forever tier; paid plans from $7/mo. No chatbots, no ticketing bloat, no AI upsells — focused live chat with honest pricing.
+- **018**: A residency for early-stage builders in Nigeria.
+- **The Agency**: Software and design studio building products for clients across markets (healthcare, fintech, education, logistics).
+
+## Side projects
+
 - [AI Webkits](https://www.aiwebkits.com/): Free online tools for text, code, SEO, and more.
 
 ## Contact
