@@ -600,6 +600,52 @@ footer {
   color: var(--link);
 }
 
+.cover-upload {
+  display: grid;
+  gap: 12px;
+}
+
+.cover-upload-label {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+
+.cover-upload-dropzone {
+  width: 100%;
+  padding: 36px 20px;
+  border: 1px dashed var(--rule);
+  border-radius: 6px;
+  background: #fafafa;
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+.cover-upload-dropzone:hover:not(:disabled) {
+  border-color: var(--ink-soft);
+  color: var(--ink);
+}
+
+.cover-upload-dropzone:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.cover-upload-preview img {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 6px;
+  display: block;
+}
+
+.cover-upload-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
 .login-form {
   max-width: 400px;
   margin: 20vh auto 0;

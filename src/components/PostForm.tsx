@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { CoverImageUpload } from "@/components/CoverImageUpload";
 import { PostEditor } from "@/components/PostEditor";
 import { savePost } from "@/app/admin/actions";
 
@@ -82,15 +83,11 @@ export function PostForm({ initial }: PostFormProps) {
         />
       </label>
 
-      <label>
-        Cover image URL
-        <input
-          type="text"
-          value={coverImageUrl}
-          onChange={(event) => setCoverImageUrl(event.target.value)}
-          placeholder="https://..."
-        />
-      </label>
+      <CoverImageUpload
+        value={coverImageUrl}
+        slug={slug || title}
+        onChange={setCoverImageUrl}
+      />
 
       <div>
         <span

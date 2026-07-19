@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { slugify } from "@/lib/posts";
+import { COVER_BUCKET, getCoverPathFromUrl } from "@/lib/storage-path";
 
 export async function signIn(formData: FormData) {
   const email = String(formData.get("email") ?? "");
@@ -79,8 +80,22 @@ export async function deletePost(id: string) {
     redirect("/admin/login");
   }
 
+  const { data: post } = await supabase
+    .from("posts")
+    .select("cover_image_url")
+    .eq("id", id)
+    .single();
+
   const { error } = await supabase.from("posts").delete().eq("id", id);
   if (error) throw new Error(error.message);
+
+  const coverPath = post?.cover_image_url
+    ? getCoverPathFromUrl(post.cover_image_url)
+    : null;
+
+  if (coverPath) {
+    await supabase.storage.from(COVER_BUCKET).remove([coverPath]);
+  }
 
   revalidatePath("/");
   revalidatePath("/posts");
